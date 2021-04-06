@@ -1,0 +1,10 @@
+Pertanyaan dan Tugas
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+   Jawab : modifikasi background color di kolom NAV, Intro dan button. modifikasi font style dengan lucida handwriting. 
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+   Jawab : CSS elemen h1 mendeklarasikan perubahan pada Header Utama ("CSS Internal dan Inline CSS") sedangkan #intro h1 mendeklarasikan perubahan pada Header pada id selector ("Hello World")
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+   Jawab : Deklarasi yang akan ditampilkan adalah CSS Eksternal karena ukuran file html akan lebih kecil dan loading akan lebih cepat sehingga yang duluan akan ditampilkan adalah CSS eksternal.
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! 
+( <p id="paragraf-1" class="text-paragraf"> )
+   Jawab : Deklarasi yang akan ditampilkan adalah selector "ID". Selektor ID hampir sama dengan class. Bedanya, ID bersifat unik. Hanya boleh digunakan oleh satu elemen saja. Sedangkan selector "class" dapat digunakan satu atau lebih dalam html.
